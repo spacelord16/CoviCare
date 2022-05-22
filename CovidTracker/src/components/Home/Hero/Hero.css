@@ -1,0 +1,59 @@
+.mainhero{
+  min-height: 90vh;
+  padding: 50px 150px;
+  flex-direction: column;
+  background-image: url("../../../assets/slider-image1.jpg");
+  background-size: cover;
+  background-position-x: -20rem;
+}
+
+.mainhero > div:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mainhero > div button {
+  background-color: #2BB9B9;
+  padding: 0.25rem 2rem;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  gap: 5rem;
+}
+
+.mainhero > div button p {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.mainhero > div:nth-of-type(2) {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.mainhero > div span {
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: bold;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.mainhero > div span:nth-of-type(1) {
+  background-color: #69C15B;
+}
+
+.mainhero > div span:nth-of-type(2) {
+  background-color: #DC4A4A;
+}
+
+.mainhero > div span:nth-of-type(3) {
+  background-color: #1F1F1F;
+}

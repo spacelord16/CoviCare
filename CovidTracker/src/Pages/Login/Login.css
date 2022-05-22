@@ -1,0 +1,59 @@
+.app__login {
+    min-height: 90vh;
+     background: #f6f5f7;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.loginForm-container {
+    background-color: #121212;
+    color: #FFFFFF;
+    padding-inline: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 7.5rem;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.loginForm-container > p {
+    font-size: 2.5rem;
+    line-height: 4;
+}
+
+.loginForm-container > form {
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loginForm-container > form > div {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.loginForm-container > form > div label,
+.loginForm-container > form > div > input {
+    width: 100%;
+}
+
+.loginForm-container > form > div input {
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    height: 30px;
+    width: 250px;
+    padding: 2.5px 5px;
+    border-radius: 4px;
+}
+
+.loginForm-container > form button {
+    background-color: #2BB9B9;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}

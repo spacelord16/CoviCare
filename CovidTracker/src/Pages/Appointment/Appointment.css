@@ -1,0 +1,18 @@
+.appt_container{
+    margin: 5rem 15rem;
+    height: 36.5vh;
+}
+
+.appointment{
+    display: flex;
+    margin: 5rem 0;
+}
+
+.appointment > div{
+    margin-right: 5rem;
+}
+
+.appointment div a{
+    color:#2BB9B9;
+    font-weight: 600;
+}

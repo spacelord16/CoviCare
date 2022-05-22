@@ -1,0 +1,74 @@
+.app__survey {
+    min-height: 90vh;
+    padding: 50px 150px;
+    flex-direction: column;
+}
+
+.app__survey > div button {
+    background-color: #2BB9B9;
+    padding: 0.25rem 2rem;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    gap: 5rem;
+}
+
+.app__survey > div button p {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.app__survey > div > p {
+    margin-top: 50px;
+    width: 500px;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.survey-form {
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.survey-form > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.survey-form > div label {
+    width: 100%;
+}
+
+.survey-form > div input,
+.survey-form > div select {
+    border: none;
+    outline: none;
+    background-color: #000000;
+    height: 30px;
+    width: 100%;
+    padding: 2.5px 5px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.survey-form > .modal-button-container {
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.survey-form > .modal-button-container button {
+    background-color: #2BB9B9;
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
